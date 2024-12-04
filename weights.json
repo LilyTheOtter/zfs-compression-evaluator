@@ -1,14 +1,16 @@
 {
-    "Compression Ratio": 0.65,
-    "Sequential Write Speed (MB/s)": 0,
+    "Sequential Compression Ratio": 0.3,
+    "Sequential Write Transfer Speed (MB/s)": 0,
     "Sequential Write IOPS": 0,
-    "Sequential Read Speed (MB/s)": 0,
-    "Sequential Read IOPS": 0.15,
-    "Random Write Speed (MB/s)": 0,
+    "Sequential Read Transfer Speed (MB/s)": 0,
+    "Sequential Read IOPS": 0.1,
+    "Sequential Read/Write Transfer Speed (MB/s)": 0,
+    "Sequential Read/Write IOPS": 0,
+    "Random Compression Ratio": 0.35,
+    "Random Write Transfer Speed (MB/s)": 0,
     "Random Write IOPS": 0,
-    "Random Read Speed (MB/s)": 0,
-    "Random Read IOPS": 0.2,
-    "Combined Speed (MB/s)": 0,
-    "Combined IOPS": 0,
-    "Random Compression Ratio": 0
+    "Random Read Transfer Speed (MB/s)": 0,
+    "Random Read IOPS": 0.25,
+    "Random Read/Write Transfer Speed (MB/s)": 0,
+    "Random Read/Write IOPS": 0
 }
