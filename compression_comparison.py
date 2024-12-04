@@ -56,9 +56,9 @@ def process_data(file_path, weights):
             if max_value > 0:  # Avoid division by zero
                 df_filtered[f"Normalized {metric}"] = df_filtered[column_name] / max_value
             else:
-                print(f"Warning: Column '{column_name}' has no valid values for normalization.")
+                logging.warning("Column '{column_name}' has no valid values for normalization.")
         else:
-            print(f"Warning: Column '{column_name}' not found in the dataset.")
+            logging.warning("Column '{column_name}' not found in the dataset.")
 
     # Filter weights to only include metrics present in the DataFrame
     valid_metrics = {
