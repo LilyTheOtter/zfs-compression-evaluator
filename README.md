@@ -1,6 +1,6 @@
 # zfs-compression-evaluator
 ## What This program does
-The `zfs-compression-evaluator` script evaluates and compares different compression algorithms based on their performance metrics. It uses data from a provided Excel file containing details about various compression algorithms, such as compression ratios, read/write speeds, and IOPS. The program calculates an overall score for each algorithm, considering the weights for various metrics like compression ratio, sequential read/write IOPS, and random read/write IOPS. The results are then displayed and saved to a CSV file, making it easy to identify the best compression algorithms for your use case.
+The `zfs-compression-evaluator` script evaluates and compares different compression algorithms based on their performance metrics. It uses data from a provided Excel file containing details about various compression algorithms, such as compression ratios, read/write speeds, and IOPS. The program calculates an overall score for each algorithm, considering the weights for various metrics like compression ratio, sequential read/write IOPS, and random read/write IOPS. The results are then displayed and saved to a CSV file, making it easy to identify the best compression algorithms for your use case. The data that was used came from the following github issue: [Performance degradation with ZFS compression on 0.8.3+](https://github.com/openzfs/zfs/pull/9735#issuecomment-570082078)
 
 ## Requirements
 - Python 3.x
