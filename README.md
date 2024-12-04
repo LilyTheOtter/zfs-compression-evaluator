@@ -94,3 +94,5 @@ The weights file used in the example:
 	"Random Read/Write IOPS": 0
 }
 ```
+## Suggestions
+If you have any suggestions on how to make this software better please create an issue or pull request
