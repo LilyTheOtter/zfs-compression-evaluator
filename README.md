@@ -19,7 +19,7 @@ pip install pandas openpyxl
 1. Clone the repository or download the script files.
 
     ```bash
-    git clone https://github.com/your-repo/zfs-compression-evaluator.git
+    git clone https://github.com/LilyTheOtter/zfs-compression-evaluator
     ```
 
 2. Install required Python dependencies.
