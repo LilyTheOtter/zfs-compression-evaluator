@@ -79,7 +79,7 @@ def process_data(file_path, weights):
     return df_sorted
 
 
-# Unit tests
+# Tests
 class TestCompressionComparison(unittest.TestCase):
     def test_weights_loading(self):
         weights = load_weights("weights.json")
@@ -151,6 +151,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error: {e}")
 
-    # Run unit tests
-    print("\nRunning unit tests...\n")
+    # Run tests
+    print("\nRunning tests...\n")
     unittest.main(exit=False)
